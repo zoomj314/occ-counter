@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Control</title>
+    <script>
+      if (window.location.protocol == "http:") {
+        window.location.href = window.location.href.replace("http:", "https:");
+      }
+    </script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <!--<h1>
+      Controler
+    </h1>-->
+    <label>Extra boxes</label>
+    <button onclick="ccount(-1)">-</button>
+    <input type="number" id="numberin" onchange="ccount(0)" />
+    <button onclick="ccount(1)">+</button><br />
+    <div id="columinput"></div>
+  </body>
+</html>

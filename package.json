@@ -1,0 +1,24 @@
+{
+  "name": "OOC-counter",
+  "version": "0.0.1",
+  "description": "A webapp for keeping track of how many OCC boxes have been packaged into cartons.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/zoomj314/occ-counter"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

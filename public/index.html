@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      if (window.location.protocol == "http:") {
+        window.location.href = window.location.href.replace("http:", "https:");
+      }
+    </script>
+    <title>Count</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <script src="script.js" defer></script>
+  <body style="background-color: white; color: white">
+    <div style="vertical-align: middle; display: inline">
+      <h1>Boxes packed:</h1>
+      <div id="total" class="numberout"></div>
+    </div>
+    <div
+      style="
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        text-align: right;
+      "
+    >
+      <h1 style="margin: 20px; font-size: 5vh">Cartons packed:</h1>
+      <div
+        id="cartoncount"
+        class="numberout"
+        style="font-weight: 400; font-size: 30vh; line-height: 15vh"
+      ></div>
+    </div>
+    <img
+      src="https://cdn.glitch.me/4079126b-fe1a-46ad-966c-5312ce8aabde%2Focc-logo-small.png?v=1637369861981"
+      style="display: block; position: absolute; right: 10px; bottom: 10px"
+    />
+  </body>
+</html>
